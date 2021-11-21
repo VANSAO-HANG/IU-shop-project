@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../photo/home.jpeg);
+    background-size: cover;
+    background-position: bottom ;
+}
+nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+}
+span, .fa-google-wallet {
+    color: orange;
+}
+.menu {
+    display: flex;
+    padding: 10px;
+    
+}
+.nav-items {
+    list-style: none;
+    padding: 10px 15px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: larger;
+}
+.text-header {
+    text-align: center;
+    color: #fff;
+    
+}
+
+.btn {
+
+    background: #fff;
+    padding: 9px 12px;
+    text-transform: uppercase;
+    color: orange;
+    border-radius: 5px;
+    border: 1px solid orange;
+    font-weight: 700;
+}
+.btn:hover {
+    background: orange;
+    color: #fff;
+}
+.active,.menu .nav-link:hover {
+    color: orange;
+    border-bottom: 2px solid ;
+}
+h2 {
+    text-align: center;
+    margin: 65px 0 40px 0;
+   
+}
+h2 span{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 111px;
+    padding-left: 60px;
+    
+    background: orange;
+    clip-path: polygon(75% 0%, 67% 51%, 75% 100%, 0% 100%, 9% 51%, 0% 0%);
+    color: #fff;
+
+}
+
+
+
+.rows {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+.col-4 {
+    width: 22%;
+    height: 55vh;
+    background: rgb(211, 209, 209);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.image {
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    background: #fff;
+    height: 30vh;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    margin: auto;    
+}
+.product-name {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.col-4 p{
+
+    margin-top: 0;
+
+}
+.col-4 .product-btn {
+    display: flex;
+    justify-content: center;
+}
+.stars .fa {
+    color: orange;  
+}
+
+
+.col-3 {
+    width: 28%;
+    line-height: 1.5rem;
+    text-align: center;
+    
+    margin-bottom: 8vh;
+}
+.col-3 .choose {
+    color: orange;
+}
+footer {
+    height: 33vh;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}
+.footer-one {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.footer-one h2 {
+    margin: 0;
+    padding: 5px;
+}
+.footer-two {
+    display: flex;
+    justify-content: center;
+    color: #3b5998;
+}
+footer .fa {
+    padding: 10px;
+}
+
+
+/*______________ About Us Page_______________ */
+.about-container .rows {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-container .col-3 {
+    height: 86vh;
+    padding: 20px;
+    box-shadow: 0px 0px  4px 4px  rgb(182, 180, 180);
+    border-radius: 3px;
+}
+.col-3 .image {
+    display: flex;
+    align-items: center;
+    height: 48%;
+}
+.col-3 .image img{
+    border-radius: 50%;
+
+    width: 270px;
+    height: 270px;
+}
+.about h3 {
+    color:#0a8ca3;
+}
+.about .ruler {
+    width: 80%;
+    margin: auto;
+    border: 2px solid #0a8ca3;
+}
+.it {
+    background: rgb(241, 237, 237);
+}
+/* ------------contact us------------ */
+.form-container{
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    background: grey;
+    padding: 10px;
+}
+.form-group {
+    display: flex;
+    padding: 10px;   
+
+}
+.form-control {
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.contact {
+    margin: 10px;
+}
+.contact .rows{
+    background: rgb(251, 251, 251);
+    padding: 10px;
+    
+}
+.col-6{
+    width: 49%;
+    margin: 20px 0 15px 0;
+   
+    
+}
+.contact .image{
+    width: 100%;
+    height: 30%;
+}
+.contact .image img{
+    width: 100%;
+    height: 30%;
+}
+.contact .btn {
+    margin-left: 40%;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon i {
+    color: orange;
+}
+.contact-left {
+    
+    padding: 10px;
+}
+.contain-left{
+    display: flex;
+}
+.group{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.group .icon{
+    border: 2px solid blue;
+    background: rgb(177, 177, 250);
+}
+.group h4 {
+    margin: 5px;
+    margin-top: 10px;
+}
+.group p {
+    margin: 0;
+    padding: 0;
+}
+.group .icon i{
+    color: blue;
+}
+.price {
+    font-weight: bold;
+}
+.product-container p{
+    margin: 0;
+    padding: 3px;
+}
+
+.product-container .product-btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: orange;
+}
+.btn a:hover{
+    color: #fff;
+}
+.col {
+    border-top: 5px solid orange;
+}
